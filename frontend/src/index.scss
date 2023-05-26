@@ -1,0 +1,61 @@
+@import "scss/imports";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html{
+  font-family: "Roboto", sans-serif;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  h2{
+    font-size: 2rem;
+    color: #292929;
+    margin-bottom: 24px;
+  }
+  button{
+    border: none;
+    color: #ffffff;
+    background: #1818ff;
+    padding: 15px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background .5s;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  button:hover{
+    background: rgba(24, 24, 255, 0.77);
+  }
+  input{
+    outline: none;
+    border: 1px solid #cccccc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    width: 100%;
+    font-size: 1rem;
+    color: #292929;
+  }
+  p{
+    font-size: 1rem;
+    color: #292929;
+    span{
+      color: #1818ff;
+      cursor: pointer;
+    }
+  }
+}
